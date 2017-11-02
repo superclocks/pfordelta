@@ -1,0 +1,42 @@
+﻿Build started 2013/2/1 22:18:42.
+     1>Project "E:\PForDelta\PForDelta\PForDelta.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\PForDelta.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\pfordelta\pfordelta\s16head.h(27): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\pfordelta\pfordelta\s16head.h(28): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\pfordelta\pfordelta\pf.h(48): warning C4018: '>=' : signed/unsigned mismatch
+     1>e:\pfordelta\pfordelta\pf.h(77): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\pfordelta\pfordelta\pf.h(19): warning C4101: 'bb_p' : unreferenced local variable
+     1>e:\pfordelta\pfordelta\pf.h(15): warning C4101: 't' : unreferenced local variable
+     1>e:\pfordelta\pfordelta\pf.h(18): warning C4101: 'bb_e' : unreferenced local variable
+     1>e:\pfordelta\pfordelta\pf.h(105): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\pfordelta\pfordelta\pf.h(149): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\pfordelta\pfordelta\pf.h(125): warning C4101: 'x' : unreferenced local variable
+     1>e:\pfordelta\pfordelta\pf.h(124): warning C4101: 's' : unreferenced local variable
+     1>e:\pfordelta\pfordelta\opt_p4.h(31): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\pfordelta\pfordelta\main.cpp(24): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>e:\pfordelta\pfordelta\main.cpp(25): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\PForDelta\Debug\PForDelta.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\PForDelta.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\PForDelta\Debug\PForDelta.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\PForDelta\Debug\PForDelta.lib" /MACHINE:X86 Debug\PForDelta.exe.embed.manifest.res
+         Debug\main.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\PForDelta.exe.embed.manifest" /manifest Debug\PForDelta.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         PForDelta.vcxproj -> E:\PForDelta\Debug\PForDelta.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\PForDelta.unsuccessfulbuild".
+         Touching "Debug\PForDelta.lastbuildstate".
+     1>Done Building Project "E:\PForDelta\PForDelta\PForDelta.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.91
